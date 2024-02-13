@@ -1,0 +1,48 @@
+xxxxxxxxxxxWorkflows - Branch, Commits, Pull Requests, Colaborate, Merge
+Open source:
+Fork - Getting a copy of repo under your account ( Create Fork, Gityhub Flow, Open pull request)
+
+Cloning Repo : Need to sync local and remote manually.
+
+Basic commands: git cloone, git pull, git branch, git checkouit, git status, git add, git commit, git push 
+
+
+Certainly! Here's a comprehensive list of Git commands along with brief descriptions:
+
+### Setup and Configuration:
+- `git config`: Configure Git settings.
+- `git init`: Initialize a new Git repository.
+- `git clone`: Clone an existing repository into a new directory.
+
+### Basic Snapshotting (Staging and Committing):
+- `git add`: Add file changes to the staging area.
+- `git rm`: Remove files from the working directory and staging area.
+- `git mv`: Move or rename files and directories.
+- `git commit`: Record changes to the repository.
+
+### Branching and Merging:
+- `git branch`: List, create, or delete branches.
+- `git checkout`: Switch branches or restore working tree files.
+- `git merge`: Join two or more development histories together.
+- `git rebase`: Reapply commits on top of another base tip.
+
+### Inspection and Comparison:
+- `git status`: Show the working tree status.
+git status helps compare the local and remote repo and provides the update of changes 
+- `git log`: Show commit logs.
+- `git diff`: Show changes between commits, commit and working tree, etc.
+
+### Undoing Changes:
+- `git reset`: Reset current HEAD to the specified state.
+- `git revert`: Revert some existing commits.
+- `git checkout -- <file>`: Discard changes in the working directory.
+- 'git restore' : git restore --source=<commit> <file> where as commit is sh code of commit New
+
+### Remote Repositories:
+- `git remote`: Manage remote repository connections.
+- `git fetch`: Download objects and refs from another repository.
+- `git pull`: Fetch from and integrate with another repository or a local branch.
+- `git push`: Update remote refs along with associated objects.
+
+### Stashing:
+- `git stash`: Stash changes in the working directory.
