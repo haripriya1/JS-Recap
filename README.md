@@ -1,1 +1,1 @@
-code practise
+JS Re-learn from scratch
