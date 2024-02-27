@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Fundamentals – Part 1</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to top left, #28b487, #7dd56f);
+      }
+      h1 {
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Fundamentals – Part 1</h1>
+    <h3>Javascript versions : ES6(2015) ------------------------------------------- ES25
+      ES - ECMA Script
+      
+      
+      Primitive Data Type:
+      Number = floating number that need not have a number after a decimal point like 23 is considered 23.0 and 23.5 is also a number. Number can be either a decimal or a interger
+      String = Seq of charac is string, always needs to be between a '' or "" to not let considered a keyword
+      Boolean = true or false is used to take decisions
+      undefined = is declared but is not set with a value ex: let childred;
+      Null = considered a empty value
+      Symbol = intro in ES2015 that a value is unique and cannot be changed
+      BigInt = intro in ES2020 used whe n larger integers are used which number type cannot hol   d
+      
+     
+     Undefined : This gives that year is undefined as no value is assigned to it
+     let year;
+     console.log(year);
+     console.log(typeof year);
+     
+     If we take null and ask for its type its is gives as object because of the bug and its not chnaged due to its legacy terms
+     
+     let keyword can be used in the script for a value that can or need not change its vslue later
+     let age =30;
+     age =31;
+
+     whereas for a const cannot be chnaged 
+     const birthYear = 1995;
+     birthYear = 1990; (here we get the error assignment to constant)
+
+     const where used a value must be decalred for it
+     const hi; (This gives error that missing declaration)
+
+     Its best practise to use const unless its sure that value changes, it is also better necause changing variable intro potential bugs in code.
+ ----------------------------------------------------------------------------------------------------------------
+
+var is used to declare varibale untill 2015
+
+var job ="programmer";
+job = 'teacher'; (this doesnt give any results as its acceptabble)
+
+
+    its not necessary to declare a variable, even if not it still works but its terrible idea as JS will create the varibale in global object in this case but not in current scope
+     lastName = "Gundala";
+     constant.log(lastName); (This still displays Gundala in console)
+
+
+  Operators:
+
+  Mathematical Operators : + - / *
+  const ageHaripriya = 2023 - 1995;
+  const ageDinesh = 2025-1995;
+  constant.log(ageHaripriya, ageDinesh);
+
+  Now + can be used in Mathematical or adding strings as well
+   const  firstName = "Haripriya";
+   const secondName ="Gundala";
+   console.log(firstName + ' ' lastName);
+    
+    
+    
+    </h3>
+    <script src="script.js"></script>
+    <script src="assignments.js"></script>
+  </body>
+  
+</html>
